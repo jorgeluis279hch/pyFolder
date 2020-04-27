@@ -10,7 +10,8 @@ from src.fechas import *
 from random import randint as rint
 
 
-prefix = '+51'
+#Change the code your country
+prefix = '+51' 
 parser = argparse.ArgumentParser()
 parser.add_argument("-c", "--cantidad", help = "Cuantos numeros desea generar: # default[0]", type = int) 
 parser.add_argument("-f", "--fechas", help = "Genera Fechas recibe como parametro el simbolo de \'y\'", type = str) 
